@@ -1,0 +1,86 @@
+/*=======================================================================================
+									Color Styles
+==========================================================================================*/									
+/*============= Color ==============*/
+.color,
+/*Button*/
+.btn:hover, .btn:focus, .btn.focus,
+/*Navigation Menu*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+/*We are Section*/
+.we-are-block:hover h4,.we-are-block:hover h3,
+/*Features Section*/
+#features .feature:hover h3,
+/*Services Section*/
+.service-block:hover h4,.service-block:hover h3,.service-block:hover i,
+/*Team Section*/
+#team .thumbnail h3,
+/*Testimonial Section*/
+#testimonials h3,
+/*Portfolio Section*/
+#portfolio ul > li a.active,#portfolio .item ul > li i:hover,
+/*Contact Section*/
+.form-control:focus{
+	color:#0099cc;
+}
+/*Mozilla placeholder*/
+.form-control:focus::-moz-placeholder{
+	color:#0099cc;
+}
+/*Services Section*/
+.service-block:hover div.fa{
+	color:rgba(0,153,204,0.1);
+}
+/* ====================Background Color==================== */
+/*Navigation Menu*/
+.navbar-default .navbar-toggle .icon-bar,
+/*We are Section*/
+.we-are-block:hover i,
+/*Features Section*/
+#features .feature:hover i,
+/*Services Section*/
+.middle-line > span:before,.services-top .service-block.left:before,.services-bottom .service-block.left:after,.middle-line:before,.middle-line:after,.middle-line,
+/*Skills Section*/
+.progress .tooltip-inner,
+/*Working Section*/
+#working .tooltip-inner,
+/*Pricing Section*/
+#pricings .pricing-table.premium .category,#pricings .pricing-table.premium .btn,
+/*Testimonial Section*/
+#testimonials .owl-page.active > span,
+/*Contact Section*/
+.contact-block:hover .icon-circle
+{
+	background:#0099cc;
+}	
+
+/* ==========================Border Color==================== */
+.btn:hover, .btn:focus, .btn.focus,
+/*Team Section*/
+.btn:hover,.services-top,#team .thumbnail .caption,
+/*Services Section*/
+.service-block.left,.middle-line,
+/*Pricing Section*/
+#pricings .pricing-table.premium,
+/*Team*/
+#team .thumbnail:hover .caption,
+/*Contact Section*/
+.form-control:focus{
+  	 border-color:#0099cc;
+}
+/* ==========================Border Top Color==================== */
+/*Tool tip */	 
+.progress .tooltip-arrow,
+/*Working Section*/
+#working .tooltip-arrow{
+	 border-top-color:#0099cc !important;
+}
+/* ==========================Box Shadow==================== */
+/*Working Section*/
+#working .working-circle:hover{
+	box-shadow:0px 0px 7px #0099CC inset;
+	-moz-box-shadow:0px 0px 7px #0099CC inset;
+	-ms-box-shadow:0px 0px 7px #0099CC inset;
+	-o-box-shadow:0px 0px 7px #0099CC inset;
+	-webkit-box-shadow:0px 0px 7px #0099CC inset;
+}	

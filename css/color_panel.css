@@ -1,0 +1,138 @@
+#theme-panel {
+    position: fixed;
+    width: 170px;
+    height: auto;
+    top: 30%;
+    min-height: 200px;
+    text-align: left;
+    background:#2e2e2e;
+    z-index: 9999;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+	 border: 1px solid #7c7b7b;
+}
+.close-theme-panel {
+    left: -170px;
+}
+.open-theme-panel {
+    left: 0;
+}
+#theme-panel .segment {
+    width: 100%;
+    border-bottom: 1px solid #7c7b7b;
+    padding: 18px 12px;
+}
+#theme-panel .segment h4{
+	font-family: 'Lato';
+	font-size:18px;
+	text-align:center;
+	text-transform:capitalize;
+	color:#7c7b7b;
+}
+#theme-panel a.panel-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background:#2e2e2e;
+    color:#7c7b7b;
+    right: -50px;
+    top: 24px;
+    text-align: center;
+    font-size: 27px;
+    line-height: 47px;
+    cursor: pointer;
+	border-left:hidden;
+	padding:0;
+	border: 1px solid #7c7b7b;
+	border-left:none;
+	
+}
+#theme-panel{
+	display:none;
+}
+#theme-panel h3 {
+    margin: 3px auto 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#theme-panel .segment a.switcher {
+    cursor: pointer;
+    display: inline-block;
+    height: 30px;
+    margin: 15px 0 0 1px;
+    width: 30px;
+	position:relative;
+}
+#theme-panel .segment a.switcher:after{
+	bottom: 0;
+	content: "";
+	height: 10px;
+	right:0px;
+	position: absolute;
+	transform: skew(11deg) rotate(11deg);
+	-o-transform: skew(11deg) rotate(11deg);
+	-ms-transform: skew(11deg) rotate(11deg);
+	-moz-transform: skew(11deg) rotate(11deg);
+	-webkit-transform: skew(11deg) rotate(11deg);
+	transform-origin: left bottom 0;
+	-o-transform-origin: left bottom 0;
+	-ms-transform-origin: left bottom 0;
+	-moz-transform-origin: left bottom 0;
+	-webkit-transform-origin: left bottom 0;
+	width:99%;
+	max-width:50px;
+	z-index: 1;
+	background:inherit;
+}
+
+.orange-bg {
+    background: #ff6131;
+	position:relative;
+}
+.blue-bg {
+    background: #16b6ea;
+}
+.green-bg {
+    background: #27ae61;
+}
+.red-bg{
+	background:#E74C3C;
+}	
+.l-blue-bg{
+	background:#0ee6f9;
+}
+.yellow-bg{
+	background:#ffb400;
+}
+.l-green-bg{
+	background:#a0ce4e;
+}
+.sandal-bg{
+	background:#c2a26f;
+}					
+/*.orange-bg:before{
+	font-family: "fontawesome";
+	content: "\f068";
+	color: #fff;
+	position:absolute;
+	top:0;
+	right:11px;
+	z-index:2;
+	line-height:36px;
+}
+	*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
