@@ -226,13 +226,11 @@ $(window).load(function() {
 					success: function(msg){
 						$('.form-message').html(msg);
 						$('.form-message').show();
-						submitButton.removeAttr("disabled");
 						resetForm($('#contactform'));
 					},
 					error: function(msg){
 						$('.form-message').html(msg);
 						$('.form-message').show();
-						submitButton.removeAttr("disabled");
 						resetForm($('#contactform'));
 					}
 			 });
