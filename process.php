@@ -1,6 +1,6 @@
 ﻿<?php
 // Information to be modified
-$to_email = "nicolas@civocracy.org"; // email address to which the form data will be sent
+$to_email = "reynolds.nicorr@gmail.com"; // email address to which the form data will be sent
 $subject = "Democracy01 - New player"; // subject of the email that is sent
 $thanks_page = "index.html"; // path to the thank you page following successful form submission
 $contact_page = "index.html"; // path to the HTML contact page where the form appears
