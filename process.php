@@ -24,6 +24,7 @@ $email_body =
 // Assuming there's no error, send the email and redirect to Thank You page
 
 if( mail($to_email, $subject, $email_body, $headers) ) {
+	ga('send', 'event', 'register', 'alpha', 'alphaWebsite');
 	echo '<i class="glyphicon glyphicon-ok"></i> Thank you ' .$nam. '. Your Email was successfully sent!';
 } else {
 	echo '<i class="glyphicon glyphicon-remove"></i> Sorry ' .$nam. '. Your Email was not sent. Resubmit form again Please..';
