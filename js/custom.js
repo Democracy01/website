@@ -224,6 +224,7 @@ $(window).load(function() {
 					url: "process.php",
 					data: $('#contactform').serialize(),
 					success: function(msg){
+						$('.contact-input').hide();
 						$('.form-message').html(msg);
 						$('.form-message').show();
 						resetForm($('#contactform'));
