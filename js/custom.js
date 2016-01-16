@@ -243,6 +243,7 @@ $(window).load(function() {
 			$form.find('input:text, input:password, input, input:file, select, textarea').val('');
 			$form.find('input:radio, input:checkbox').removeAttr('checked').removeAttr('selected');
 			$form.find('.form-control-feedback').css('display', 'none');
+			$('#sendingbtn').val('Submit');
 		}
 
 		/* ----------- Google Map ----------- */
