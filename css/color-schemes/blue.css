@@ -1,6 +1,6 @@
 /*=======================================================================================
 									Color Styles
-==========================================================================================*/									
+==========================================================================================*/
 /*============= Color ==============*/
 .color,
 /*Button*/
@@ -22,7 +22,13 @@
 /*Contact Section*/
 .form-control:focus{
 	color:#0099cc;
+	border-color:#0099cc;
 }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	border-color:#0099cc;
+}
+
 /*Mozilla placeholder*/
 .form-control:focus::-moz-placeholder{
 	color:#0099cc;
@@ -52,7 +58,7 @@
 .contact-block:hover .icon-circle
 {
 	background:#0099cc;
-}	
+}
 
 /* ==========================Border Color==================== */
 .btn:hover, .btn:focus, .btn.focus,
@@ -69,7 +75,7 @@
   	 border-color:#0099cc;
 }
 /* ==========================Border Top Color==================== */
-/*Tool tip */	 
+/*Tool tip */
 .progress .tooltip-arrow,
 /*Working Section*/
 #working .tooltip-arrow{
@@ -83,4 +89,4 @@
 	-ms-box-shadow:0px 0px 7px #0099CC inset;
 	-o-box-shadow:0px 0px 7px #0099CC inset;
 	-webkit-box-shadow:0px 0px 7px #0099CC inset;
-}	
+}

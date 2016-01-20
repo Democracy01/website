@@ -207,6 +207,14 @@ section.color{
 	-o-border-radius:0;
 	-webkit-border-radius:0;
 }
+
+#cta-menu {
+	border: 1px solid;
+	margin-top: 19px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
 /* ===================================================================
 						TEXT SLIDER SECTION
 ======================================================================*/

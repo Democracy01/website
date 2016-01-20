@@ -56,12 +56,13 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#navigation-menu"  class="scroll">HOME</a></li>
-					<li><a href="#working" class="scroll">EXPERIMENT</a></li>
-					<li><a href="#choices" class="scroll">OUR CHOICES</a></li>
-					<li><a href="#features" class="scroll">FEATURES</a></li>
+
+					<li><a href="#features" class="scroll">THE GAME</a></li>
+					<li><a href="#intro" class="scroll">EXPERIMENT</a></li>
+					<li><a href="#choices" class="scroll">CHOICES</a></li>
 					<li><a href="#team" class="scroll">TEAM</a></li>
-					<li><a href="#contact" class="scroll">JOIN</a></li>
+					<li><a href="#skills" class="scroll">PROGRESS</a></li>
+					<li><a href="#contact" class="scroll" id='cta-menu'>APPLY FOR BETA</a></li>
 				</ul>
 			</div>
 		<!-- /.navbar-collapse -->
@@ -71,20 +72,97 @@
 </div><!-- /.NAVIGATION MENU -->
 
 <!-- TEXT SLIDER -->
-<div class="text-slider parallaxbg">
+<div id="name" class="text-slider parallaxbg">
 	<div class="pattern-overlay"></div>
 	<div class="slider-container">
 		<div class="home-text-slider slider-text owl-carousel owl-theme animated" data-animation="fadeInUp" data-animation-delay="1500">
 			<div class="item">
 				<h3><span class="color">DEMOCRACY</span>01</h3>
 				<p>The first game made by its players.</p>
+				<div class="col-md-12 animated" data-animation="fadeInDown" data-animation-delay="2000" style='text-align: center;'>
+							<a href="#contact" class="scroll btn" style='float: none; background: transparent;'>APPLY FOR BETA</a>
+				</div>
 			</div>
 		</div>
 		<div class="scroll-down">
-			<a href="#we-are" class="scroll"><i class="fa fa-angle-down"></i></a>
+			<a href="#features" class="scroll"><i class="fa fa-angle-down"></i></a>
 		</div>
 	</div>
 </div><!-- /.TEXT SLIDER -->
+
+<!-- FEATURES SECTION-->
+<section id="features" class="color">
+	<div class="container">
+		<div class="row">
+			<!--SECTION TITLE-->
+			<div class="col-md-12 title">
+				<h1 class="animated" data-animation="fadeInDown" data-animation-delay="300">The game</h1>
+				<p class="animated" data-animation="fadeInRight" data-animation-delay="500">Democracy01 unleash the power of mass cooperation:<br>
+				Thousand of people collaborating in real time, towards a common goal.</p>
+				<br>
+				<p class="animated" data-animation="fadeInLeft" data-animation-delay="500">The harder the challenge, the smarter the crowd.</p>
+			</div><!-- /.SECTION TITLE-->
+		</div>
+		<div class="row">
+			<!--FEATURES LEFT-SIDE-->
+			<div class="features-left">
+				<div class="feature animated" data-animation="fadeInLeft" data-animation-delay="500">
+					<!--FEATURE-ICON-->
+					<div class="feature-icon">
+						<i class="fa fa-area-chart"></i>
+					</div>
+					<!--FEATURE-DESCRIPTION-->
+					<div class="features-title">
+						<h3>Mass cooperation</h3>
+						<p>Up to 1000 players, playing on the same map, towards the same goal.</p>
+					</div>
+				</div>
+				<div class="feature animated" data-animation="fadeInLeft" data-animation-delay="700">
+					<!--FEATURE-ICON-->
+					<div class="feature-icon">
+						<i class="fa fa-bullhorn"></i>
+					</div>
+					<!--FEATURE-DESCRIPTION-->
+					<div class="features-title">
+						<h3>Timed challenges</h3>
+						<p>Same time to beat harder and harder targets: Will you sustain the pressure?</p>
+					</div>
+				</div>
+
+			</div><!-- /.FEATURES LEFT-SIDE-->
+			<!--FEATURES IMAGE-->
+			<div class="features-image animated" data-animation="pulse" data-animation-delay="500">
+				<img src="images/features/iPhone.png" class="img-responsive" alt="phone" height="678" width="330">
+			</div><!-- /.FEATURES IMAGE-->
+			<!--FEATURES RIGHT-SIDE-->
+			<div class="features-right">
+				<div class="feature animated" data-animation="fadeInRight" data-animation-delay="500">
+					<!--FEATURE-ICON-->
+					<div class="feature-icon">
+						<i class="fa fa-magic"></i>
+					</div>
+					<!--FEATURE-DESCRIPTION-->
+					<div class="features-title">
+						<h3>Cooperation skills</h3>
+						<p>In this game, as you progress, unlock more strategic cooperation possibilities!</p>
+					</div>
+				</div>
+				<div class="feature animated" data-animation="fadeInRight" data-animation-delay="700">
+					<!--FEATURE-ICON-->
+					<div class="feature-icon">
+						<i class="fa fa-desktop"></i>
+					</div>
+					<!--FEATURE-DESCRIPTION-->
+					<div class="features-title">
+						<h3>Your feature!</h3>
+						<p>You decide: Want something? You can make it happen!</p>
+					</div>
+				</div>
+
+			</div><!-- /.FEATURES RIGHT-SIDE-->
+		</div>
+	</div>
+</section><!-- /.FEATURES SECTION-->
 
 <!--WE ARE SECTION-->
 <section id="intro">
@@ -126,7 +204,7 @@
 				<div class="working-circle" role="tooltip" data-toggle="tooltip" data-placement="top" title="ALL information is open for you to use, so that you can make the best choices.">
 					<i class="fa fa-area-chart"></i>
 					<!--TITLE-->
-					<p>FULL TRANSPANCY</p>
+					<p>FULL TRANSPARENCY</p>
 				</div>
 			</div>
 			<div class="col-sm-3 animated"  data-animation="bounceInUp" data-animation-delay="700">
@@ -201,82 +279,8 @@
 	</div>
 </section><!-- /.WE ARE SECTION-->
 
-<!-- FEATURES SECTION-->
-<section id="features" class="color">
-	<div class="container">
-		<div class="row">
-			<!--SECTION TITLE-->
-			<div class="col-md-12 title">
-				<h1 class="animated" data-animation="fadeInDown" data-animation-delay="300"><span class="color">The game</span>'s features</h1>
-				<p class="animated" data-animation="fadeInRight" data-animation-delay="500">Democracy01 unleash the power of mass cooperation:<br>
-				Thousand of people collaborating in real time, towards a common goal.</p>
-				<br>
-				<p class="animated" data-animation="fadeInLeft" data-animation-delay="500">The harder the challenge, the smarter the crowd.</p>
-			</div><!-- /.SECTION TITLE-->
-		</div>
-		<div class="row">
-			<!--FEATURES LEFT-SIDE-->
-			<div class="features-left">
-				<div class="feature animated" data-animation="fadeInLeft" data-animation-delay="500">
-					<!--FEATURE-ICON-->
-					<div class="feature-icon">
-						<i class="fa fa-area-chart"></i>
-					</div>
-					<!--FEATURE-DESCRIPTION-->
-					<div class="features-title">
-						<h3>Mass cooperation</h3>
-						<p>Up to 1000 players, playing on the same map, towards the same goal.</p>
-					</div>
-				</div>
-				<div class="feature animated" data-animation="fadeInLeft" data-animation-delay="700">
-					<!--FEATURE-ICON-->
-					<div class="feature-icon">
-						<i class="fa fa-bullhorn"></i>
-					</div>
-					<!--FEATURE-DESCRIPTION-->
-					<div class="features-title">
-						<h3>Timed challenges</h3>
-						<p>Same time to beat harder and harder targets: Will you sustain the pressure?</p>
-					</div>
-				</div>
-
-			</div><!-- /.FEATURES LEFT-SIDE-->
-			<!--FEATURES IMAGE-->
-			<div class="features-image animated" data-animation="pulse" data-animation-delay="500">
-				<img src="images/features/iPhone.png" class="img-responsive" alt="phone" height="678" width="330">
-			</div><!-- /.FEATURES IMAGE-->
-			<!--FEATURES RIGHT-SIDE-->
-			<div class="features-right">
-				<div class="feature animated" data-animation="fadeInRight" data-animation-delay="500">
-					<!--FEATURE-ICON-->
-					<div class="feature-icon">
-						<i class="fa fa-magic"></i>
-					</div>
-					<!--FEATURE-DESCRIPTION-->
-					<div class="features-title">
-						<h3>Cooperation skills</h3>
-						<p>In this game, as you progress, unlock more strategic cooperation possibilities!</p>
-					</div>
-				</div>
-				<div class="feature animated" data-animation="fadeInRight" data-animation-delay="700">
-					<!--FEATURE-ICON-->
-					<div class="feature-icon">
-						<i class="fa fa-desktop"></i>
-					</div>
-					<!--FEATURE-DESCRIPTION-->
-					<div class="features-title">
-						<h3>Your feature!</h3>
-						<p>Remember, you decide: Want something? You can make it happen!</p>
-					</div>
-				</div>
-
-			</div><!-- /.FEATURES RIGHT-SIDE-->
-		</div>
-	</div>
-</section><!-- /.FEATURES SECTION-->
-
 <!-- TEAM SECTION-->
-<section id="team">
+<section id="team" class="color">
 	<div class="container">
 		<div class="row">
 			<!--SECTION TITLE-->
@@ -367,7 +371,7 @@
 </section><!-- /.TEAM SECTION-->
 
 <!-- SKILLS SECTION-->
-<section id="skills" class="color">
+<section id="skills">
 	<div class="container">
 		<div class="row">
 			<!--SECTION TITLE-->
@@ -394,13 +398,13 @@
 				<!--PROGRESS BAR-2-->
 				<p>CONCEPTION OF VERSION 1</p>
 				<div class="progress">
-					<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-					<span class="sr-only">60% Complete</span>
+					<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+					<span class="sr-only">65% Complete</span>
 						<div class="tooltip top" role="tooltip">
 							<div class="tooltip-arrow">
 							</div>
 							<div class="tooltip-inner">
-							60%
+							65%
 							</div>
 						</div>
 					</div>
@@ -431,7 +435,7 @@
 		<div class="row">
 			<!--SECTION TITLE-->
 			<div class="col-md-12 title white">
-				<h1 class="animated" data-animation="fadeInDown" data-animation-delay="300">Join the exeriment</h1>
+				<h1 class="animated" data-animation="fadeInDown" data-animation-delay="300">Apply to play the beta</h1>
 				<p class="animated" data-animation="fadeInRight" data-animation-delay="500">The creation of the game already began, you can be a part of it!</p>
 				<p class="animated" data-animation="fadeInLeft" data-animation-delay="500">Fill in your information to be selected, we will contact you soon:</p>
 			</div><!-- /.SECTION TITLE-->
@@ -471,26 +475,34 @@
 			</div>
 		</div>
 	</div>
+</section>
 
-	<!--Footer Begins-->
-	<div id="footer">
-		<div class="container">
+<!--Footer Begins-->
+<div id="footer">
+	<div class="container">
+		<!--SOCIAL LINKS-->
+		<div class="row">
+			<!--COPYRIGHTS-->
+			<div class="col-sm-4">
+				<p style='color: #666;'>Democracy01 - 2016</p>
+			</div>
+			<!--UP-->
+			<div class="col-sm-4">
+				<div class="scroll-down">
+					<a href="#name" class="scroll"><i class="fa fa-angle-up"></i></a><br>
+					Back
+				</div>
+			</div>
 			<!--SOCIAL LINKS-->
-			<div class="row">
-				<!--COPYRIGHTS-->
-				<div class="col-sm-6">
-					<p style='color: #666;'>Democracy01 - 2016</p>
-				</div>
-				<!--SOCIAL LINKS-->
-				<div class="col-sm-6">
-					<ul>
-						<li><a href="https://www.facebook.com/groups/552984288182042/" class="fa fa-facebook" target="_blank"></a></li>
-					</ul>
-				</div>
+			<div class="col-sm-4">
+				<ul>
+					<li><a href="https://www.facebook.com/groups/552984288182042/" class="fa fa-facebook" target="_blank"></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
-</section>	<!-- /.CONTACT SECTION-->
+</div>
+
 <!-- Script Begins -->
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
 <!-- Bootstrap -->
