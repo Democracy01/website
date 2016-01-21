@@ -310,6 +310,14 @@ section.color{
 	transform: translateZ(0);
 	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
+#scroll-down-special {
+	box-sizing: border-box;
+	color: #333;
+	font-family: "Raleway",sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+}
 @-webkit-keyframes hover {
   50% {
     -webkit-transform: translateY(-3px);
@@ -1164,6 +1172,9 @@ section.color{
 	background:url(../images/bg/contact.jpg)fixed;
 	padding-bottom:0;
 	position:relative;
+	background-size: 1500px;
+	background-color: black;
+	background-repeat: no-repeat;
 }
 .input-group{
 	width:100%;
